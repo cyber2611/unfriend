@@ -8,7 +8,7 @@ $ apt inatall python2 -y
 
 $ apt install git -y
 
-$ pip2 install request
+$ pip2 install requests
 
 $ git clone https://github.com/Unikers71/unfriend
 
