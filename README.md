@@ -10,7 +10,7 @@ $ apt install git -y
 
 $ pip2 install request
 
-$ git clone https:// github.com/unikers71/unfriend
+$ git clone https://github.com/Unikers71/unfriend
 
 $ cd unfriend
 
