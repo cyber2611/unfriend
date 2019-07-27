@@ -8,7 +8,7 @@ try:
 	import requests
 except ImportError:
 	os.system("pip2 install requests")
-from requests.ex import ConnectionError
+from requests.exceptions import ConnectionError
 
 def keluar():
 	print "\033[1;96m[!] \x1b[1;91mKeluar"
