@@ -7,7 +7,8 @@ import os,sys,time,json
 try:
 	import requests
 except ImportError:
-from requests.exceptions import ConnectionError
+	os.system("pip2 install requests")
+from requests.ex import ConnectionError
 
 def keluar():
 	print "\033[1;96m[!] \x1b[1;91mKeluar"
