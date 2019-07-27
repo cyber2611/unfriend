@@ -7,7 +7,6 @@ import os,sys,time,json
 try:
 	import requests
 except ImportError:
-	os.system("pip2 install requests")
 from requests.exceptions import ConnectionError
 
 def keluar():
